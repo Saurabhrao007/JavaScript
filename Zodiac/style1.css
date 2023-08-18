@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: green;
+  color: white;
+}
+.container {
+  text-align: center;
+  margin-top: 150px;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin: 20px;
+}
+select,
+button {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
